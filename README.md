@@ -26,7 +26,14 @@ These notes aim to set up a simple cognitive authentication test. Hope you find 
 ### Step: Frontend App
 
 1. Install application sample on http server (ex : nginx / apache)
-     Requirement : the URL for signin should be on HTTP#S#
+     Requirement : the URL for signin should be on HTTP*S*
 2. Configure setting on the index.html
+    ClientId : 'CLIENT_ID', // Your client id here
+    AppWebDomain : 'xxxxx.auth.<REGION>.amazoncognito.com',
+    RedirectUriSignIn : 'https://APPLI_DNS_NAME/index.html',
+    RedirectUriSignOut : 'https://APPLI_DNS_NAME/index.html',
+    IdentityProvider : '',
+    UserPoolId : 'eu-west-1_xxxxx',
+
 3. Acces to the web page : https://APPLI_DNS/index.html
 
