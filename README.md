@@ -36,4 +36,7 @@ These notes aim to set up a simple cognitive authentication test. Hope you find 
     UserPoolId : 'eu-west-1_xxxxx',
 
 3. Acces to the web page : https://APPLI_DNS/index.html
-
+4. Sign up
+5. Sign in
+6. Decode the token
+![Overview](https://github.com/TJarriault/auth-Cognito-Userpool/blob/master/img/token-information.png)
